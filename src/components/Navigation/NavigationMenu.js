@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import logo from '../../assets/images/aditep-logo.jpg';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
@@ -22,7 +22,7 @@ class NavigationMenu extends React.Component {
         <nav role="navigation">
           <ul class="top-nav menu clearfix">
             <li>
-              <img src={logo} style={{ width: '50px' }} />
+              <img src={logo} style={{ width: '50px' }} alt='logo' />
             </li>
             <li class="menu-item">
               <a href="/#">Home</a>
@@ -123,58 +123,58 @@ class NavigationMenu extends React.Component {
     )
   }
 }
-class Submenu extends React.Component {
-  render() {
-    return (
-      <ul className="submenu">
-        <li className="submenu">
-          <a>Who we are</a>
-        </li>
-        <li className="submenu-">
-          <a>Our mission</a>
-        </li>
-        <li className="submenu">
-          <a>Our vision</a>
-        </li>
-      </ul>
-    )
-  }
-}
+// class Submenu extends React.Component {
+//   render() {
+//     return (
+//       <ul className="submenu">
+//         <li className="submenu">
+//           <a>Who we are</a>
+//         </li>
+//         <li className="submenu-">
+//           <a>Our mission</a>
+//         </li>
+//         <li className="submenu">
+//           <a>Our vision</a>
+//         </li>
+//       </ul>
+//     )
+//   }
+// }
 
-class Submenu1 extends React.Component {
-  render() {
-    return (
-      <ul className="nav__submenu">
-        <li className="nav__submenu-item ">
-          <a>Construction</a>
-        </li>
-        <li className="nav__submenu-item ">
-          <a>Plant hire</a>
-        </li>
-        <li className="nav__submenu-item ">
-          <a>Herb service</a>
-        </li>
-      </ul>
-    )
-  }
-}
-class Submenu2 extends React.Component {
-  render() {
-    return (
-      <ul className="nav__submenu">
-        <li className="nav__submenu-item ">
-          <a>Consulting</a>
-        </li>
-        <li className="nav__submenu-item ">
-          <a>Projects&Management</a>
-        </li>
-        <li className="nav__submenu-item ">
-          <a>Construction</a>
-        </li>
-      </ul>
-    )
-  }
-}
+// class Submenu1 extends React.Component {
+//   render() {
+//     return (
+//       <ul className="nav__submenu">
+//         <li className="nav__submenu-item ">
+//           <a>Construction</a>
+//         </li>
+//         <li className="nav__submenu-item ">
+//           <a>Plant hire</a>
+//         </li>
+//         <li className="nav__submenu-item ">
+//           <a>Herb service</a>
+//         </li>
+//       </ul>
+//     )
+//   }
+// }
+// class Submenu2 extends React.Component {
+//   render() {
+//     return (
+//       <ul className="nav__submenu">
+//         <li className="nav__submenu-item ">
+//           <a>Consulting</a>
+//         </li>
+//         <li className="nav__submenu-item ">
+//           <a>Projects&Management</a>
+//         </li>
+//         <li className="nav__submenu-item ">
+//           <a>Construction</a>
+//         </li>
+//       </ul>
+//     )
+//   }
+// }
 
 export default NavigationMenu
 
