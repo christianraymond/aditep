@@ -14,7 +14,7 @@ class NavigationMenu extends React.Component {
       <div>
         <header>
         <FaPhoneAlt /><span>+27 78 460 1958</span>&nbsp;
-         <FaEnvelope /><span> info@aditep.com</span> &nbsp;
+         <FaEnvelope /><span> jean@aditep.com</span> &nbsp;
          <FaFacebook/>&nbsp;
           <FaTwitter/>&nbsp;
           <FaLinkedin/>
