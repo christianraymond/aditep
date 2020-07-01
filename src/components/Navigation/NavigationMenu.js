@@ -4,7 +4,6 @@ import { FaPhoneAlt } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
 import { FaFacebook } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
 import './NavigationMenu.css'
 
 
@@ -14,10 +13,9 @@ class NavigationMenu extends React.Component {
       <div>
         <header>
         <FaPhoneAlt /><span>+27 78 460 1958</span>&nbsp;
-         <FaEnvelope /><span> jean@aditep.com</span> &nbsp;
+         <FaEnvelope /><span> info@aditep.com</span> &nbsp;
          <FaFacebook/>&nbsp;
           <FaTwitter/>&nbsp;
-          <FaLinkedin/>
         </header>
         <nav role="navigation">
           <ul class="top-nav menu clearfix">
@@ -45,13 +43,13 @@ class NavigationMenu extends React.Component {
               <a href="/#">Services</a>
               <ul class="sub-menu">
                 <li class="menu-item">
-                  <a href="/#">Plant Hire</a>
+                  <a href="/#">Consulting</a>
                 </li>
                 <li class="menu-item">
                   <a href="/#">Construction</a>
                 </li>
                 <li class="menu-item">
-                  <a href="/#">Herb Services</a>
+                  <a href="/#">Plant Hire</a>
                 </li>
               </ul>
             </li>
